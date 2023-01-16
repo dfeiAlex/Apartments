@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    display: flex;
+}
+
 .header {
     display: flex;
     background-color: #2fb4b4;
@@ -11,10 +15,17 @@
 }
 
 .logo-text {
-    position: fixed;
+    position: absolute;
     left: 43vw;
     color: white;
     text-shadow: 1px 1px black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
 }
 
 .nav-bar {
@@ -38,8 +49,18 @@
     font-size: 25px;
 }
 
+#current {
+    text-shadow: none;
+}
+
+.content img {
+    width: 1000px;
+    height: 688px;
+}
+
 .content {
     display: flex;
+    flex-grow: 0;
     align-items: center;
     background-color: #f5f5dc;
 }
@@ -48,4 +69,24 @@
     padding: 20px 5%;
     color: navy;
     text-shadow: 1px 1px white;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #009999;
+    display: flex;
+    flex: 1;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.payments img {
+    height: 50px;
+    width: auto;
 }
