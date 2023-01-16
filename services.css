@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    max-height: 588px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.description ul {
+    margin: 10px;
+}
+
+.middle-ul {
+    margin-top: 25px;
+}
+
+.description li {
+    font-style: italic;
+}
+
+.description h3 {
+    font-style: italic;
+}
