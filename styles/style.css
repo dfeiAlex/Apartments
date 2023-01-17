@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 html {
@@ -16,7 +17,8 @@ html {
 
 .logo-text {
     position: absolute;
-    left: 43vw;
+    font-weight: bolder;
+    left: 43%;
     color: white;
     text-shadow: 1px 1px black;
 }
@@ -85,4 +87,17 @@ body {
 .payments img {
     height: 50px;
     width: auto;
+}
+
+#current {
+    border: solid 1px white;
+    padding: 0.25em;
+}
+
+a:hover {
+    color: rgb(255, 176, 176);
+}
+
+a:visited {
+    text-decoration: none;
 }
